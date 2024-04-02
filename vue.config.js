@@ -2,8 +2,8 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
   pwa: {
-    "name": "BStore",
-    "short_name": "BStore",
+    "name": "EliLessons",
+    "short_name": "EliLessons",
     workboxPluginMode: "GenerateSW",
     skipWaiting: true,
     workboxOptions: {
