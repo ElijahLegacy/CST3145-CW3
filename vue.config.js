@@ -13,7 +13,7 @@ module.exports = defineConfig({
         handler: 'StaleWhileRevalidate'
       },
         {
-          urlPattern: ({ request, url }) => url.origin === 'http://cst3145-cw2-beanstalk-env.eba-5ezbmp9p.eu-west-2.elasticbeanstalk.com' && url.pathname === '/lessons' ,
+          urlPattern: ({ request, url }) => url.origin === 'https://cst3145-cw2.onrender.com' && url.pathname === '/lessons' ,
           handler: 'StaleWhileRevalidate',
           options: {
             cacheName: 'api-cache'

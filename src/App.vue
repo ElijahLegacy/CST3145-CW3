@@ -63,7 +63,7 @@ export default {
       showShoppingCart: false,
       showCheckout: false,
       orderSubmitted: false,
-      baseUrl: 'http://cst3145-cw2-beanstalk-env.eba-5ezbmp9p.eu-west-2.elasticbeanstalk.com'
+      baseUrl: 'https://cst3145-cw2.onrender.com'
     };
   },
   //fetch lessons & pass via prop to LessonComponent
